@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1b141d4.chunk.css",
+    "main.js": "/static/js/main.00350272.chunk.js",
+    "main.js.map": "/static/js/main.00350272.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d20443e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d20443e.js.map",
+    "static/css/2.7ec57fde.chunk.css": "/static/css/2.7ec57fde.chunk.css",
+    "static/js/2.31c4bd8c.chunk.js": "/static/js/2.31c4bd8c.chunk.js",
+    "static/js/2.31c4bd8c.chunk.js.map": "/static/js/2.31c4bd8c.chunk.js.map",
+    "static/js/3.12de5c9e.chunk.js": "/static/js/3.12de5c9e.chunk.js",
+    "static/js/3.12de5c9e.chunk.js.map": "/static/js/3.12de5c9e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7ec57fde.chunk.css.map": "/static/css/2.7ec57fde.chunk.css.map",
+    "static/css/main.a1b141d4.chunk.css.map": "/static/css/main.a1b141d4.chunk.css.map",
+    "static/js/2.31c4bd8c.chunk.js.LICENSE.txt": "/static/js/2.31c4bd8c.chunk.js.LICENSE.txt",
+    "static/media/react-summernote.css": "/static/media/summernote.bd0d8be1.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d20443e.js",
+    "static/css/2.7ec57fde.chunk.css",
+    "static/js/2.31c4bd8c.chunk.js",
+    "static/css/main.a1b141d4.chunk.css",
+    "static/js/main.00350272.chunk.js"
+  ]
+}

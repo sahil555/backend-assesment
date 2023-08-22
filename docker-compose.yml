@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+
+  nginx:
+    restart: always
+    build: ./nginx
+    ports: 
+      - 80:80
+
+  postgres:
+    restart: on-failure
+    image: 'postgres:latest'
+    environment: 
+      - PGUSER=postgres
+      - POSTGRES_PASSWORD=postgres_password
+
+
+  backend:
+    restart: on-failure
+    build: ./Tool-backend/backend
+    volumes: 
+      - /Tool-backend/backend/backend
+      - ./Tool-backend/backend:/backend
+    command: bash -c "python3 manage.py makemigrations && python3 manage.py migrate && python3 manage.py runserver 0.0.0.0:8000"
+    depends_on: 
+      - postgres
+      - nginx
+
+  
+  frontend:
+    build: ./tools-frontend
+    volumes: 
+      - /tools-frontend/node_modules
+      - ./tools-frontend:/app
+  
+
+    
+
+

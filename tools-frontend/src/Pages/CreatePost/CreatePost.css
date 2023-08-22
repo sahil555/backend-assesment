@@ -1,0 +1,11 @@
+.notebtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1vw;
+}
+.notebtn button{
+    margin: 10px 20px;
+}
+.user-template{
+    margin: 1vw 0;
+}

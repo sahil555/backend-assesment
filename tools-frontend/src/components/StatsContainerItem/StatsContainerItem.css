@@ -1,0 +1,28 @@
+.stats-container-item{
+    height: 14vh;
+    width: 260px;
+    display: flex;
+    padding: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 1vw;
+}
+.stats-container-item .title{
+    color: rgba(0,0,0,0.6);
+}
+.stats-container-item .content{
+    display: flex;
+    justify-content: space-between;
+}
+.stats-container-item .content .stats p{
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0;
+}
+.stats-container-item .content .stats small{
+    color: red;
+    font-weight: 900;
+    padding-left: 5px;
+}

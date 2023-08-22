@@ -1,0 +1,10 @@
+Django==2.2.12
+twilio==6.46.0
+facebook_sdk==3.1.0
+djangorestframework==3.12.4
+python-dotenv==0.17.0
+psycopg2-binary
+django-cors-headers
+djangorestframework_simplejwt
+Pillow
+social_auth_app_django

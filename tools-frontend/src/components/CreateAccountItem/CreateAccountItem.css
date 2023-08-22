@@ -1,0 +1,21 @@
+.account-btns {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.account-btns .account-add-btn {
+  height: 180px;
+  width: 200px;
+  /* background: rgba(0, 0, 0, 0.2); */
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 1.5vw 3vw 1.5vw 0;
+}
+.account-add-btn .social-add-btn {
+  height: 60%;
+}
